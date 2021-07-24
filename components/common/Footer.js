@@ -30,7 +30,10 @@ const Footer = () => {
             </button>
           </form>
         </div>
-        <div class="md:flex justify-center">
+        <p className="text-xs font-normal text-white">
+            All Right Reserved @OnewonLabs Pvt. Ltd.
+          </p>
+        {/* <div class="md:flex justify-center">
           <div className="flex">
             <div class="flex flex-col flex-start m-4 text-left w-48 box-border">
               <h2 className="mb-8 text-white">About Us</h2>
@@ -64,7 +67,7 @@ const Footer = () => {
               <p className="text-white mb-2 cursor-pointer">Twitter</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

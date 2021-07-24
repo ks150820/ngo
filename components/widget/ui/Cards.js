@@ -1,5 +1,6 @@
 import React from "react";
 import { ProgressBar } from "react-bootstrap";
+import Link from "next/link";
 
 export const Cards = (props) => {
   return (
@@ -57,29 +58,31 @@ export const SliderCard = ({
 
 export const BlogCards = () => {
   return (
-    <div className="md:max-w-sm shadow-md text-center my-3 mx-2 rounded-sm overflow-hidden">
-      <div className="w-full h-62 ">
-        <img
-          src="images/unnamed.jpg"
-          alt="unnamed"
-          className="w-full h-full object-cover"
-        />
+    <Link href="/">
+      <div className="md:max-w-sm shadow-md cursor-pointer text-center my-3 mx-2 rounded-md overflow-hidden">
+        <div className="w-full h-56 ">
+          <img
+            src="images/unnamed.jpg"
+            alt="unnamed"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="px-3 py-4">
+          <h4 className="mb-4 text-xl" style={{ color: "#d94b38" }}>
+            Lorem Ipsum is Lorem Ipsum
+          </h4>
+          <p style={{ color: "#869ab8" }}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+          <p className="font-semibold">Read more</p>
+          <p className="mb-1 " style={{ color: "#c1c1c1" }}>
+            November 10,2020
+          </p>
+        </div>
       </div>
-      <div className="px-3 py-4">
-        <h4 className="mb-4" style={{ color: "#d94b38" }}>
-          Lorem Ipsum is Lorem Ipsum
-        </h4>
-        <p style={{ color: "#869ab8" }}>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s,
-        </p>
-        <p className="font-semibold">Read more</p>
-        <p className="mb-1 " style={{ color: "#c1c1c1" }}>
-          November 10,2020
-        </p>
-      </div>
-    </div>
+    </Link>
   );
 };
 
@@ -104,7 +107,7 @@ export const PetitionCard = ({ subtitle, title, image }) => {
 };
 
 export const CardItem = (props) => {
-  console.log(props.src);
+  //console.log(props.src);
   return (
     <>
       <div className="flex flex-1 my-0 mx-4  hover:transition hover:duration-700 hover:ease-in-out">

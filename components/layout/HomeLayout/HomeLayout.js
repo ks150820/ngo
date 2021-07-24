@@ -8,21 +8,32 @@ import ThoughtOfTheDay from "./components/ThoughtOfTheDay";
 import LatestBlogs from "./components/LatestBlogs";
 import PetitionAndSolution from "./Components/PetitionAndSolution";
 import Gallery from "./Components/Gallery";
+import ContactLayout from "../contact/ContactLayout";
+import Visionlayout from "../VisionLayout/Visionlayout";
 
 const HomeLayout = () => {
   return (
     <div>
       <HeroSection />
-      <Threecards />
-      <div className="flex justify-center items-center">
-        <EveryOne />
+      <div className="bg-white">
+        <Threecards />
+        <div className="flex justify-center items-center" id="everyone">
+          <EveryOne />
+        </div>
+        <RefugeesCrisis />
+        {/* <Historyfound_trackrecord /> */}
+        <OurCauses />
+        <ThoughtOfTheDay />
+        {/* <LatestBlogs /> */}
+        <PetitionAndSolution />
+        <div id="vision">
+          <Visionlayout />
+        </div>
+        <div id="contact">
+          <ContactLayout />
+        </div>
+        {/* <Gallery /> */}
       </div>
-      <RefugeesCrisis />
-      <OurCauses />
-      <ThoughtOfTheDay />
-      <LatestBlogs />
-      <PetitionAndSolution />
-      <Gallery />
     </div>
   );
 };

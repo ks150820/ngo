@@ -27,7 +27,7 @@ const NavigationBar = () => {
               Home
             </h1>
           </Link>
-          <Link href="/">
+          <Link href="#vision">
             <h1
               className="text-xl hover:bg-red-500 hover:text-xl font-normal text-white px-6 py-3  cursor-pointer"
               onClick={() => setToggleBlock(false)}
@@ -51,7 +51,15 @@ const NavigationBar = () => {
               who we are
             </h1>
           </Link>
-          <Link href="/">
+          {/* <Link href="/Blog">
+            <h1
+              className="text-xl hover:bg-red-500 hover:text-xl font-normal text-white px-6 py-3 cursor-pointer"
+              onClick={() => setToggleBlock(false)}
+            >
+              Blogs
+            </h1>
+          </Link> */}
+          <Link href="#contact">
             <h1
               className="text-xl hover:bg-red-500 hover:text-xl font-normal text-white px-6 py-3 cursor-pointer"
               onClick={() => setToggleBlock(false)}
@@ -72,12 +80,14 @@ const NavigationBar = () => {
                   style={{ backgroundColor: "#1a252e" }}
                   className="p-2 rounded-sm"
                 >
-                  <p
-                    className="text-white text-lg rounded-sm font-normal px-6 py-1 hover:bg-red-500 cursor-pointer"
-                    onClick={() => setToggleBlock(false)}
-                  >
-                    History foundation & track record
-                  </p>
+                  <Link href="/HistoryFoundationAndTrackRecord">
+                    <p
+                      className="text-white text-lg rounded-sm font-normal px-6 py-1 hover:bg-red-500 cursor-pointer"
+                      onClick={() => setToggleBlock(false)}
+                    >
+                      History foundation & track record
+                    </p>
+                  </Link>
                   <p
                     className="text-white text-lg font-normal px-6 py-1 hover:bg-red-500 cursor-pointer"
                     onClick={() => setToggleBlock(false)}

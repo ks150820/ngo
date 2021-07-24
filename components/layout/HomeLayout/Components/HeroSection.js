@@ -6,14 +6,14 @@ import React from 'react';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container text-center'>
       <video src='/videos/video-2.mp4' autoPlay loop muted />
-      <h2>Global Health Initiative: </h2>
+      <h2 className='text-white'>Global Health Initiative </h2>
       
 
-      <p>Dr APJ Abdul Kalam Global Health University & Center of Excellence</p>
-      <p>and</p>
-      <p>Khajuraho Global Health City.</p>
+      <p className='text-white'>Dr APJ Abdul Kalam Global Health University & Center of Excellence</p>
+      <p className='text-white'>and</p>
+      <p className='text-white'>Khajuraho Global Health City.</p>
       
     </div>
   );
