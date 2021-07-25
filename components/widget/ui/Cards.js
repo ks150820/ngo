@@ -8,7 +8,7 @@ export const Cards = (props) => {
       className="p-12 text-left"
       style={{ backgroundColor: `${props.color}` }}
     >
-      <h4 className="text-white uppercase">{props.title}!</h4>
+      <h4 className="text-white uppercase text-2xl font-semibold">{props.title}!</h4>
       <div className="my-3">
         <p className="text-white leading-7 text-sm">{props.intro}</p>
       </div>

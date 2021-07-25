@@ -14,8 +14,12 @@ const NavigationBar = () => {
       className="px-10 flex justify-between items-center sticky top-0 z-50"
       style={{ backgroundColor: "#1a252e" }}
     >
-      <div>
-        <h1 className="text-base text-white font-semibold uppercase">NGO</h1>
+      <div className="w-16 h-16">
+        <img 
+          src="/images/logo-2.jpg"
+          alt="logo"
+          className="w-full h-full object-cover"
+        />
       </div>
       <div className="md:block hidden">
         <div className="flex items-center justify-center">
@@ -35,7 +39,7 @@ const NavigationBar = () => {
               Our Vision
             </h1>
           </Link>
-          <Link href="/">
+          <Link href="/Roadmap">
             <h1
               className="text-xl hover:bg-red-500 hover:text-xl font-normal text-white px-6 py-3 cursor-pointer"
               onClick={() => setToggleBlock(false)}
