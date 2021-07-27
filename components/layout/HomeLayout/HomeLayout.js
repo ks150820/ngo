@@ -26,13 +26,6 @@ const HomeLayout = () => {
         <ThoughtOfTheDay />
         {/* <LatestBlogs /> */}
         <PetitionAndSolution />
-        <div id="vision">
-          <Visionlayout />
-        </div>
-        <div id="contact">
-          <ContactLayout />
-        </div>
-        {/* <Gallery /> */}
       </div>
     </div>
   );

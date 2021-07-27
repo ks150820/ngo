@@ -11,10 +11,10 @@ const ThoughtOfTheDay = () => {
       }}
     >
       <p
-        className="text-white font-semibold text-3xl "
+        className=" text-white font-semibold text-7xl "
         style={{ fontFamily: `${"Dancing Script"} ,cursive` }}
       >
-        the printing and typesetting
+        Prof. Maurits Van Rooijen
       </p>
       <p
         className="text-white font-semibold text-3xl "

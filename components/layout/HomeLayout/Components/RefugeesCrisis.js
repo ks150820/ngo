@@ -14,7 +14,7 @@ const RefugeesCrisis = () => {
       <div className="mx-3  ">
         <div
           className="px-12 mx-auto py-14 max-w-7xl md:items-center md:flex justify-between"
-          style={{ backgroundColor: "#d74a38", opacity: 0.9,width: "100%"}}
+          style={{ backgroundColor: "#d74a38", opacity: 0.9, width: "100%" }}
         >
           <div className="h-52 w-52 mx-auto rounded-full overflow-hidden">
             <img
@@ -22,24 +22,31 @@ const RefugeesCrisis = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="max-w-2xl " style={{width: "70%"}}>
+          <div className="max-w-2xl " style={{ width: "70%" }}>
             <p className="text-xl font-semibold" style={{ color: "#ecd4d0" }}>
-              $7220 To Go
+              Urgently needed:-
             </p>
             <h2 className="font-bold text-white text-4xl">
-              Syrian Refugee Crisis
+              new approaches for global health
             </h2>
-            <p className=" font-semibold leading-7 pt-3" style={{ color: "#ecd4d0" }}>
-              Cras dapibus ullamcorper dictum. Vivamus nec erat placerat felis
-              scelerisque porttitor in ac turpis. In nec imperdiet turpis.
-              Suspendisse quis orci ut orci pulvinar eleifend. Nulla eu mattis
-              ipsum. Integer eget sagittis.
+            <p
+              className=" font-semibold leading-7 pt-3"
+              style={{ color: "#ecd4d0" }}
+            >
+              Urgently needed: new approaches for global health With yet another
+              global health crisis the message is clearer than ever: The world
+              urgently needs a sensible global approach to health. As a
+              Foundation we developed a concept to approach complex global
+              issues towards new knowledge and multiple innovations: the Global
+              Knowledge Cities concept. See LINK Publications. The coming post
+              pandemic era offers an excellent opportunity to apply this concept
+              on global health and develop new knowledge and multiple solutions.
             </p>
           </div>
           <div className="h-52 w-52 rounded-full mx-auto overflow-hidden">
             <CircularProgressbar
-              value={66}
-              text="66%"
+              value={60}
+              text=" progress"
               styles={buildStyles({
                 backgroundColor: "#fff",
                 pathColor: "#fff",

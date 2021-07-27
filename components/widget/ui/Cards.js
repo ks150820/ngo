@@ -8,7 +8,9 @@ export const Cards = (props) => {
       className="p-12 text-left"
       style={{ backgroundColor: `${props.color}` }}
     >
-      <h4 className="text-white uppercase text-2xl font-semibold">{props.title}!</h4>
+      <h4 className="text-white uppercase text-2xl font-semibold">
+        {props.title}!
+      </h4>
       <div className="my-3">
         <p className="text-white leading-7 text-sm">{props.intro}</p>
       </div>
@@ -23,7 +25,7 @@ export const SliderCard = ({
   img,
   intro,
   title,
-  price,
+  Date,
   percentage,
   status,
   movement,
@@ -34,23 +36,18 @@ export const SliderCard = ({
       style={{ textAlign: `${movement}` }}
     >
       <img src={img} alt="pic" className="w-full h-64 border-t-xl" />
-      <h3 className="text-red-600 py-2.5">{title}</h3>
-      <div className="pt-3 pr-3 pb-3 pl-0">
-        <div className="mt-2">
-          <p className="intro-section-p">{intro}</p>
-        </div>
-        {status && (
-          <div>
-            <div>
-              <div className="justify-between flex">
-                <p className="font-semibold">DONATED</p>
-                <p className="text-red-400">{percentage}%</p>
-              </div>
-              <ProgressBar variant="danger" now={percentage} className="h-2" />
-            </div>
-            <p className="text-gray-300 ">${price} to go</p>
+      <div className="p-2">
+        <h3 className="text-red-600 py-2.5">{title}</h3>
+        <div className="pt-3 pr-3 pb-3 pl-0">
+          <div className="mt-2">
+            <p className="intro-section-p">{intro}</p>
           </div>
-        )}
+          {status && (
+            <div>
+              {/* <p className="text-gray-300 ">Updated - {Date}</p> */}
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

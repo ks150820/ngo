@@ -3,11 +3,11 @@ import { FaCheckCircle } from "react-icons/fa";
 
 const Visionlayout = () => {
   return (
-    <div>
-      <div className="text-center">
-        <h2 className="uppercase font-bold text-2xl">Our Vision</h2>
+    <div >
+      <div className="text-center py-8" style={{backgroundColor:"#1a252e"}}>
+        <h2 className="uppercase font-bold text-4xl text-white">Our Vision</h2>
         <div>
-          <p>
+          <p className="text-white">
             sustainable prevention in human settlements, youth as driving force
           </p>
         </div>
@@ -22,7 +22,7 @@ const Visionlayout = () => {
               alt="vision image"
             />
           </div>
-          <div className="max-w-4xl h-96 overflow-y-scroll shadow-md scrollbar-hide p-3">
+          <div className="max-w-4xl  overflow-y-scroll  scrollbar-hide p-3" style={{height: 600}}>
             <div className="mb-10">
               <h1 style={{ color: "#ef3f49" }} class="text-2xl font-semibold ">
                 Urbanisation in relation to health of individuals and

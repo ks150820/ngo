@@ -31,7 +31,7 @@ const NavigationBar = () => {
               Home
             </h1>
           </Link>
-          <Link href="#vision">
+          <Link href="/Vision">
             <h1
               className="text-xl hover:bg-red-500 hover:text-xl font-normal text-white px-6 py-3  cursor-pointer"
               onClick={() => setToggleBlock(false)}

@@ -57,6 +57,7 @@ const OurCauses = () => {
             title="Desperate for Clean Water & Safe Water"
             percentage="30"
             status={true}
+            Date=" July 21 2021"
           />
           <SliderCard
             img="images/img-4.jpg"
@@ -67,6 +68,7 @@ const OurCauses = () => {
             title="Desperate for Clean Water & Safe Water"
             percentage="20"
             status={true}
+            Date=" July 21 2021"
           />
           <SliderCard
             img="images/img-5.jpg"
@@ -77,6 +79,7 @@ const OurCauses = () => {
             title="Desperate for Clean Water & Safe Water"
             percentage="35"
             status={true}
+            Date=" July 21 2021"
           />
 
           <SliderCard
@@ -88,6 +91,7 @@ const OurCauses = () => {
             title="Desperate for Clean Water & Safe Water"
             percentage="60"
             status={true}
+            Date=" July 21 2021"
           />
           <SliderCard
             img="images/img-7.jpg"
@@ -98,6 +102,7 @@ const OurCauses = () => {
             title="Desperate for Clean Water & Safe Water"
             percentage="70"
             status={true}
+            Date=" July 21 2021"
           />
         </Carousel>
       </div>
